@@ -2,60 +2,61 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Главная | Погнали</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
-  <body class="page-body">
-    <header class="page-header">
-      <div class="page-header__nav page-header__nav--scroll page-header__nav--opened">
-        <div class="page-header__nav-bar">
-          <a class="page-header__logo">
-            <img src="img/logo-pognali-white-mobile.svg" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
-            <img src="img/logo-pognali-blue-mobile.svg" width="100" height="15"  alt="Логотип сайта &laquo;Погнали&raquo;">
-          </a>
-          <button class="page-header__button" type="button" aria-label="Открыть меню"></button>
-          <div class="user-nav user-nav--header">
-            <ul class="user-nav__contacts">
-              <li class="user-nav__contacts-item user-nav__contacts-item--phone">
-                <a href="#"></a>
-              </li>
-              <li class="user-nav__contacts-item user-nav__contacts-item--email">
-                <a href="#"></a>
-              </li>
-            </ul>
-            <a class="user-nav__authorization" href="#">Авторизация</a>
-          </div>
-        </div>
-        <div class="page-header__menu">
-          <nav class="main-nav">
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a>О сервисе</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="form.html">Направления</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="catalog.html">Попутчики</a>
-              </li>
-            </ul>
-          </nav>
-          <a class="page-header__authorization" href="#">Авторизация</a>
-          <address class="page-header__contacts contacts">
-            <a class="page-header__phone contacts__phone" href="tel:88005558628">8 800 555-86-28</a>
-            <a class="page-header__email contacts__email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          </address>
-          <ul class="page-header__socials socials">
-            <li class="socials__item socials__item--fb socials__item--header">
-              <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
+  <body class="page-body page-body--main">
+    <header class="page-header page-header--opened">
+      <div class="page-header__menu-bar">
+        <a class="page-header__logo">
+          <img class="page-header__logo-image page-header__logo-image--white" src="img/logo-pognali-white-mobile.png" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+          <img class="page-header__logo-image page-header__logo-image--blue" src="img/logo-pognali-blue-mobile.png" width="100" height="15"  alt="Логотип сайта &laquo;Погнали&raquo;">
+        </a>
+        <button class="page-header__button" type="button" aria-label="Открыть меню"></button>
+        <div class="user-nav user-nav--header">
+          <ul class="user-nav__contacts">
+            <li class="user-nav__contacts-item user-nav__contacts-item--phone">
+              <a href="#"></a>
             </li>
-            <li class="socials__item socials__item--vk socials__item--header">
-              <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
-            </li>
-            <li class="socials__item socials__item--inst socials__item--header">
-              <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
+            <li class="user-nav__contacts-item user-nav__contacts-item--email">
+              <a href="#"></a>
             </li>
           </ul>
+          <a class="user-nav__authorization" href="#">Авторизация</a>
         </div>
+      </div>
+      <div class="page-header__menu">
+        <nav class="page-header__nav main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a>О сервисе</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="form.html">Направления</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="catalog.html">Попутчики</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="page-header__authorization" href="#">Авторизация</a>
+        <address class="page-header__contacts contacts contacts--header">
+          <a class="contacts__link contacts__link--phone" href="tel:88005558628">8 800 555-86-28</a>
+          <a class="contacts__link contacts__link--email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </address>
+        <ul class="page-header__socials socials socials--header">
+          <li class="socials__item socials__item--fb">
+            <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
+          </li>
+          <li class="socials__item socials__item--vk">
+            <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
+          </li>
+          <li class="socials__item socials__item--inst">
+            <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
+          </li>
+        </ul>
       </div>
     </header>
     <main class="page-main">
@@ -78,27 +79,29 @@
           <q>Лучшее приложение, что я видел в жизни!</q>
           <p class="promo__quote-author">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
         </div>
-        <ol class="promo__plan">
-          <li class="promo__plan-item promo__plan-item--first">
-            <span class="promo__plan-item-name">Выберите направление</span>
-            <span class="promo__plan-item-number">1</span>
-          </li>
-          <li class="promo__plan-item promo__plan-item--second">
-            <span class="promo__plan-item-name">Изучите идеи путешественников</span>
-            <span class="promo__plan-item-number">2</span>
-          </li>
-          <li class="promo__plan-item promo__plan-item--third">
-            <span class="promo__plan-item-name">Находите тех, кто похож на вас</span>
-            <span class="promo__plan-item-number">3</span>
-          </li>
-          <li class="promo__plan-item promo__plan-item--fourth">
-            <span class="promo__plan-item-name">Путешествуйте вместе!</span>
-            <span class="promo__plan-item-number">4</span>
-          </li>
-        </ol>
+        <div class="promo__plan promo-plan">
+          <ol class="promo-plan__list">
+            <li class="promo-plan__item">
+              <span class="promo-plan__name">Выберите направление</span>
+              <span class="promo-plan__number">1</span>
+            </li>
+            <li class="promo-plan__item">
+              <span class="promo-plan__name">Изучите идеи путешественников</span>
+              <span class="promo-plan__number">2</span>
+            </li>
+            <li class="promo-plan__item">
+              <span class="promo-plan__name">Находите тех, кто похож на вас</span>
+              <span class="promo-plan__number">3</span>
+            </li>
+            <li class="promo-plan__item">
+              <span class="promo-plan__name">Путешествуйте вместе!</span>
+              <span class="promo-plan__number">4</span>
+            </li>
+          </ol>
+        </div>
       </section>
       <section class="service-info">
-        <h2 class="service-info__title">О сервисе</h2>
+        <h2 class="service-info__title section-title">О сервисе</h2>
         <div class="service-info__text">
           <p class="service-info__desc">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.</p>
           <p class="service-info__excerpt">А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
@@ -106,7 +109,7 @@
         <a class="service-info__more button" href="#">Подробнее</a>
       </section>
       <section class="directions-promo">
-        <h2 class="directions-promo__title">Направления</h2>
+        <h2 class="directions-promo__title section-title">Направления</h2>
         <p class="directions-promo__desc">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
         <ul class="directions-promo__list">
           <li class="directions-promo__item">
@@ -143,44 +146,44 @@
         <a class="directions-promo__more button" href="form.html">Показать все</a>
       </section>
       <section class="companions-promo">
-        <h2 class="companions-promo__title">Попутчики</h2>
+        <h2 class="companions-promo__title section-title">Попутчики</h2>
         <div class="companions-promo__text">
           <p class="companions-promo__desc">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
           <p class="companions-promo__excerpt">Теперь можно легко найти единомышленников!</p>
         </div>
         <ul class="companions-promo__list">
           <li class="companions-promo__item">
-            <img src="img/lying-on-the-water-promo-mobile.jpg" width="270" height="270" alt="Девушка лежит на воде">
+            <img src="img/firsova-promo-mobile.jpg" width="270" height="270" alt="Девушка лежит на воде">
             <ul class="companions-promo__flags">
               <li class="companions-promo__flag companions-promo__flag--sri-lanka"></li>
               <li class="companions-promo__flag companions-promo__flag--thailand"></li>
               <li class="companions-promo__flag companions-promo__flag--seychelles"></li>
             </ul>
-            <div class="companions-promo__item-info">
-              <p class="companions-promo__item-name">Таня Фирсова</p>
-              <p class="companions-promo__item-tags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+            <div class="companions-promo__user-info">
+              <p class="companions-promo__user-name">Таня Фирсова</p>
+              <p class="companions-promo__tags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
               <ul class="companions-promo__transport-list">
-                <li class="companions-promo__transport-item companions-promo__transport-item--plane"></li>
-                <li class="companions-promo__transport-item companions-promo__transport-item--auto"></li>
-                <li class="companions-promo__transport-item companions-promo__transport-item--bike"></li>
-                <li class="companions-promo__transport-item companions-promo__transport-item--walk"></li>
+                <li class="companions-promo__transport companions-promo__transport--plane"></li>
+                <li class="companions-promo__transport companions-promo__transport--auto"></li>
+                <li class="companions-promo__transport companions-promo__transport--bike"></li>
+                <li class="companions-promo__transport companions-promo__transport--walk"></li>
               </ul>
             </div>
           </li>
           <li class="companions-promo__item">
-            <img src="img/bearded-man-promo-mobile.jpg" width="270" height="270" alt="Бородатый парень в солнечных очках">
+            <img src="img/demin-promo-mobile.jpg" width="270" height="270" alt="Бородатый парень в солнечных очках">
             <ul class="companions-promo__flags">
               <li class="companions-promo__flag companions-promo__flag--belgium"></li>
               <li class="companions-promo__flag companions-promo__flag--czech"></li>
             </ul>
-            <div class="companions-promo__item-info">
-              <p class="companions-promo__item-name">Петя Демин</p>
-              <p class="companions-promo__item-tags">#бургер #бар #футбол #концерт #крафт</p>
+            <div class="companions-promo__user-info">
+              <p class="companions-promo__user-name">Петя Демин</p>
+              <p class="companions-promo__tags">#бургер #бар #футбол #концерт #крафт</p>
               <ul class="companions-promo__transport-list">
-                <li class="companions-promo__transport-item companions-promo__transport-item--plane"></li>
-                <li class="companions-promo__transport-item companions-promo__transport-item--auto"></li>
-                <li class="companions-promo__transport-item companions-promo__transport-item--bike"></li>
-                <li class="companions-promo__transport-item companions-promo__transport-item--walk"></li>
+                <li class="companions-promo__transport companions-promo__transport--plane"></li>
+                <li class="companions-promo__transport companions-promo__transport--auto"></li>
+                <li class="companions-promo__transport companions-promo__transport--bike"></li>
+                <li class="companions-promo__transport companions-promo__transport--walk"></li>
               </ul>
             </div>
           </li>
@@ -189,7 +192,7 @@
       </section>
       <section class="rates">
         <h2 class="visually-hidden">Тарифы</h2>
-        <p class="rates__caption">Добавьте свой профиль</p>
+        <p class="rates__caption section-title">Добавьте свой профиль</p>
         <dl class="rates__list">
           <div class="rates__item rates__item--first">
             <dt>Базовое размещение</dt>
@@ -208,7 +211,7 @@
       </section>
       <section class="registration">
         <h2 class="visually-hidden">Регистрация на сайте</h2>
-        <p class="registration__caption">Заинтересовались?</p>
+        <p class="registration__caption section-title">Заинтересовались?</p>
         <p class="registration__desc">Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистрированы? Тогда скорее <a href="#">авторизуйтесь</a>.</p>
         <form class="registration__form" method="post" action="#">
           <input class="registration__input" type="email" placeholder="E-mail">
@@ -218,9 +221,9 @@
         </form>
         <div class="feedback">
           <p class="feedback__desc">Остались вопросы? Мы с радостью на них ответим!</p>
-          <address class="feedback__contacts contacts">
-            <a class="feedback__contacts-phone contacts__phone" href="tel:88005558628">8 800 555-86-28</a>
-            <a class="feedback__contacts-email contacts__email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          <address class="feedback__contacts contacts contacts--feedback">
+            <a class="contacts__link contacts__link--phone" href="tel:88005558628">8 800 555-86-28</a>
+            <a class="contacts__link contacts__link--email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </address>
         </div>
       </section>
@@ -238,16 +241,16 @@
     </main>
     <footer class="page-footer">
       <a class="page-footer__logo">
-        <img src="img/logo-pognali-blue-mobile.svg" width="100" height="15"  alt="Логотип сайта &laquo;Погнали&raquo;">
+        <img src="img/logo-pognali-blue-mobile.png" width="100" height="15"  alt="Логотип сайта &laquo;Погнали&raquo;">
       </a>
-      <ul class="page-footer__socials socials">
-        <li class="socials__item socials__item--fb socials__item--footer">
+      <ul class="page-footer__socials socials socials--footer">
+        <li class="socials__item socials__item--fb">
           <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
         </li>
-        <li class="socials__item socials__item--vk socials__item--footer">
+        <li class="socials__item socials__item--vk">
           <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
         </li>
-        <li class="socials__item socials__item--inst socials__item--footer">
+        <li class="socials__item socials__item--inst">
           <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
         </li>
       </ul>
@@ -259,7 +262,7 @@
       </p>
     </footer>
     <section class="business-rates">
-      <h2 class="business-rates__title">Бизнес-тарифы</h2>
+      <h2 class="business-rates__title section-title">Бизнес-тарифы</h2>
       <dl class="business-rates__list">
         <div class="business-rates__item">
           <dt>Реклама у блоггера</dt>

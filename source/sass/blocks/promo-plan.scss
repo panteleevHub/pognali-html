@@ -1,0 +1,39 @@
+.promo-plan {
+  background: linear-gradient(to bottom, transparent 80px, $special-blue 80px);
+}
+
+.promo-plan__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.promo-plan__item:nth-child(4n+1) {
+  background-color: $special-orange;
+}
+
+.promo-plan__item:nth-child(4n+2) {
+  background-color: $special-orange-light;
+}
+
+.promo-plan__item:nth-child(4n+3) {
+  background-color: $special-yellow-dark;
+}
+
+.promo-plan__item:nth-child(4n+4) {
+  background-color: $basic-yellow;
+}
+
+.promo-plan__name {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $basic-blue;
+}
+
+.promo-plan__number {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $white;
+}

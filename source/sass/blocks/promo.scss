@@ -1,0 +1,14 @@
+.promo {
+  background-color: $basic-blue;
+  background-image: url("../img/traveller-illustration-mobile.png"), url("../img/globe-background.jpg");
+  background-size: 192px 255px, 100%;
+  background-repeat: no-repeat;
+}
+
+.promo__slogan {
+  line-height: 40px;
+}
+
+.promo__quote-author {
+  font-weight: 700;
+}

@@ -1,0 +1,15 @@
+.contacts__link {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.contacts--header .contacts__link {
+  color: $special-blue;
+}
+
+.contacts--feedback .contacts__link {
+  color: $basic-yellow;
+}

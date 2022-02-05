@@ -1,0 +1,44 @@
+.user-nav--header {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.user-nav--promo {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.user-nav__contacts {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.user-nav--header .user-nav__contacts {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}
+
+.user-nav__contacts-item--phone {
+  background-color: $special-orange;
+}
+
+.user-nav__contacts-item--email {
+  background-color: $special-yellow-dark;
+}
+
+.user-nav__authorization {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue;
+  background-color: $basic-yellow;
+}

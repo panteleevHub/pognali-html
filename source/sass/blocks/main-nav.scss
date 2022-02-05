@@ -1,0 +1,12 @@
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-nav__item a {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  color: $special-blue;
+}

@@ -1,0 +1,62 @@
+.page-header {
+  background-color: $basic-blue;
+}
+
+.page-header--scroll {
+  background-color: $white;
+}
+
+.page-header--scroll .page-header__logo-image--white {
+  display: none;
+}
+
+.page-header--scroll .page-header__logo-image--blue {
+  display: block;
+}
+
+@media (max-width: $without-desktop) {
+  .page-header--opened {
+    background-color: $white;
+  }
+
+  .page-header--opened .page-header__logo-image--white {
+    display: none;
+  }
+
+  .page-header--opened .page-header__logo-image--blue {
+    display: block;
+  }
+
+  .page-header--opened .page-header__menu {
+    display: block;
+  }
+}
+
+.page-header__logo {
+  display: block;
+}
+
+.page-header__logo-image--white {
+  display: block;
+}
+
+.page-header__logo-image--blue {
+  display: none;
+}
+
+.page-header__menu {
+  display: none;
+}
+
+.page-header__authorization {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue;
+  background-color: $basic-yellow;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

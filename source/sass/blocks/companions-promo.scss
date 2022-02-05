@@ -1,0 +1,32 @@
+.companions-promo {
+  background-color: $special-blue;
+  background-image: url("../img/smolov-background.png"), url("../img/rogovaya-background-mobile.png");
+  background-repeat: no-repeat;
+}
+
+.companions-promo__excerpt {
+  font-weight: 700;
+}
+
+.companions-promo__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.companions-promo__user-info {
+  background-color: $white;
+}
+
+.companions-promo__user-name {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  color: $basic-blue-light;
+}
+
+.companions-promo__tags {
+  line-height: 18px;
+  font-weight: normal;
+  color: $special-grey;
+}

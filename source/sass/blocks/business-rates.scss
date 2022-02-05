@@ -1,0 +1,20 @@
+.business-rates {
+  background-color: $white;
+}
+
+.business-rates__item {
+  color: $special-grey;
+}
+
+.business-rates__item dd {
+  margin: 0;
+}
+
+.business-rates__close {
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue-light;
+  background-color: $special-grey-light;
+  border: none;
+}

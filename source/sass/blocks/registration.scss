@@ -1,0 +1,60 @@
+.registration {
+  background-color: $special-blue;
+}
+
+.registration__desc a {
+  text-decoration: underline;
+  color: $basic-yellow;
+}
+
+.registration__input {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $white;
+  background-color: $white;
+
+  &::placeholder {
+    color: $special-grey;
+    opacity: 0.3;
+  }
+
+  &:hover {
+    background-color: $basic-blue-pale;
+  }
+
+  &:hover::placeholder {
+    opacity: 0.5;
+  }
+
+  &:focus {
+    background-color: transparent;
+  }
+
+  &:focus::placeholder {
+    color: $white;
+    opacity: 1;
+  }
+}
+
+.registration__input--error {
+  color: $red;
+}
+
+.registration__submit {
+  padding: 0;
+  background-color: $basic-yellow;
+  border: none;
+}
+
+.registration__submit span {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: inline;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: $basic-blue-light;
+  }
+}

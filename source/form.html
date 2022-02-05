@@ -2,60 +2,61 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Направления | Погнали</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="page-body">
-    <header class="page-header">
-      <div class="page-header__nav page-header__nav--scroll page-header__nav--active">
-        <div class="page-header__nav-bar">
-          <a class="page-header__logo" href="index.html">
-            <img src="img/logo-pognali-white-mobile.svg" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
-            <img src="img/logo-pognali-blue-mobile.svg" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
-          </a>
-          <button class="page-header__button" type="button" aria-label="Открыть меню"></button>
-          <div class="user-nav user-nav--header">
-            <ul class="user-nav__contacts">
-              <li class="user-nav__contacts-item user-nav__contacts-item--phone">
-                <a href="#"></a>
-              </li>
-              <li class="user-nav__contacts-item user-nav__contacts-item--email">
-                <a href="#"></a>
-              </li>
-            </ul>
-            <a class="user-nav__authorization" href="#">Авторизация</a>
-          </div>
-        </div>
-        <div class="page-header__menu">
-          <nav class="main-nav">
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a href="index.html">О сервисе</a>
-              </li>
-              <li class="main-nav__item">
-                <a>Направления</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="catalog.html">Попутчики</a>
-              </li>
-            </ul>
-          </nav>
-          <a class="page-header__authorization" href="#">Авторизация</a>
-          <address class="page-header__contacts contacts">
-            <a class="page-header__phone contacts__phone" href="tel:88005558628">8 800 555-86-28</a>
-            <a class="page-header__email contacts__email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          </address>
-          <ul class="page-header__socials socials">
-            <li class="socials__item socials__item--fb socials__item--header">
-              <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
+    <header class="page-header page-header--opened">
+      <div class="page-header__menu-bar">
+        <a class="page-header__logo" href="index.html">
+          <img src="img/logo-pognali-white-mobile.svg" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+          <img src="img/logo-pognali-blue-mobile.svg" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+        </a>
+        <button class="page-header__button" type="button" aria-label="Открыть меню"></button>
+        <div class="user-nav user-nav--header">
+          <ul class="user-nav__contacts">
+            <li class="user-nav__contacts-item user-nav__contacts-item--phone">
+              <a href="#"></a>
             </li>
-            <li class="socials__item socials__item--vk socials__item--header">
-              <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
-            </li>
-            <li class="socials__item socials__item--inst socials__item--header">
-              <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
+            <li class="user-nav__contacts-item user-nav__contacts-item--email">
+              <a href="#"></a>
             </li>
           </ul>
+          <a class="user-nav__authorization" href="#">Авторизация</a>
         </div>
+      </div>
+      <div class="page-header__menu">
+        <nav class="page-header__nav main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="index.html">О сервисе</a>
+            </li>
+            <li class="main-nav__item">
+              <a>Направления</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="catalog.html">Попутчики</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="page-header__authorization" href="#">Авторизация</a>
+        <address class="page-header__contacts contacts contacts--header">
+          <a class="contacts__link contacts__link--phone" href="tel:88005558628">8 800 555-86-28</a>
+          <a class="contacts__link contacts__link--email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </address>
+        <ul class="page-header__socials socials socials--header">
+          <li class="socials__item socials__item--fb">
+            <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
+          </li>
+          <li class="socials__item socials__item--vk">
+            <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
+          </li>
+          <li class="socials__item socials__item--inst">
+            <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
+          </li>
+        </ul>
       </div>
     </header>
     <main class="directions page-main">
@@ -1294,16 +1295,16 @@
     </main>
     <footer class="page-footer">
       <a class="page-footer__logo" href="index.html">
-        <img src="img/logo-pognali-blue-mobile.svg" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+        <img src="img/logo-pognali-blue-mobile.png" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
       </a>
-      <ul class="page-footer__socials socials">
-        <li class="socials__item socials__item--fb socials__item--footer">
+      <ul class="page-footer__socials socials socials--footer">
+        <li class="socials__item socials__item--fb">
           <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
         </li>
-        <li class="socials__item socials__item--vk socials__item--footer">
+        <li class="socials__item socials__item--vk">
           <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
         </li>
-        <li class="socials__item socials__item--inst socials__item--footer">
+        <li class="socials__item socials__item--inst">
           <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
         </li>
       </ul>

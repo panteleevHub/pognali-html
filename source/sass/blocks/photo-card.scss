@@ -1,0 +1,28 @@
+.photo-card {
+  margin: 0;
+}
+
+.photo-card__description {
+  background-color: $white;
+}
+
+.photo-card__name {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  color: $black;
+}
+
+.photo-card__slogan {
+  line-height: 18px;
+  font-weight: 500;
+  color: $special-grey;
+  opacity: 0.3;
+}
+
+.photo-card__users {
+  line-height: 20px;
+  font-weight: 500;
+  color: $basic-blue;
+  opacity: 0.3;
+}
