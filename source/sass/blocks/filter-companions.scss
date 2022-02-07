@@ -1,0 +1,46 @@
+.filter-companions {
+  background-color: $basic-yellow;
+}
+
+.filter-companions__caption {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: $basic-blue-light;
+}
+
+.filter-companions__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.filter-companions__legend {
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue-light;
+}
+
+.filter-companions__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.filter-companions__label {
+  font-size: 15px;
+  line-height: 20px;
+  color: $black;
+  cursor: pointer;
+}
+
+.filter-companions__submit {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue;
+  background-color: $white;
+  border: none;
+}

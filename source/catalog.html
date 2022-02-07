@@ -11,8 +11,8 @@
     <header class="page-header page-header--opened">
       <div class="page-header__menu-bar">
         <a class="page-header__logo" href="index.html">
-          <img src="img/logo-pognali-white-mobile.svg" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
-          <img src="img/logo-pognali-blue-mobile.svg" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+          <img class="page-header__logo-image page-header__logo-image--white" src="img/logo-pognali-white-mobile.png" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+          <img class="page-header__logo-image page-header__logo-image--blue" src="img/logo-pognali-blue-mobile.png" width="100" height="15"  alt="Логотип сайта &laquo;Погнали&raquo;">
         </a>
         <button class="page-header__button" type="button" aria-label="Открыть меню"></button>
         <div class="user-nav user-nav--header">
@@ -46,14 +46,14 @@
           <a class="contacts__link contacts__link--phone" href="tel:88005558628">8 800 555-86-28</a>
           <a class="contacts__link contacts__link--email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </address>
-        <ul class="page-header__socials socials socials--header">
-          <li class="socials__item socials__item--fb">
+        <ul class="page-header__socials socials">
+          <li class="socials__item socials__item--header socials__item--fb">
             <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
           </li>
-          <li class="socials__item socials__item--vk">
+          <li class="socials__item socials__item--header socials__item--vk">
             <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
           </li>
-          <li class="socials__item socials__item--inst">
+          <li class="socials__item socials__item--header socials__item--inst">
             <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
           </li>
         </ul>
@@ -69,17 +69,17 @@
           <h2 class="visually-hidden">Фильтр стран</h2>
           <div class="filter-countries__header">
             <p class="filter-countries__caption">Фильтрация по странам:</p>
-            <ul class="filter-countries__categories-list">
-              <li class="filter-countries__categories-item filter-countries__categories-item--current">
+            <ul class="filter-countries__sort-list">
+              <li class="filter-countries__sort-item filter-countries__sort-item--current">
                 <a href="#">Европа</a>
               </li>
-              <li class="filter-countries__categories-item">
+              <li class="filter-countries__sort-item">
                 <a href="#">Азия</a>
               </li>
-              <li class="filter-countries__categories-item">
+              <li class="filter-countries__sort-item">
                 <a href="#">Америка</a>
               </li>
-              <li class="filter-countries__categories-item">
+              <li class="filter-countries__sort-item">
                 <a href="#">Острова</a>
               </li>
             </ul>
@@ -90,83 +90,43 @@
           </div>
           <div class="filter-countries__dropdown">
             <div class="filter-countries__slider country-slider country-slider--filter">
-              <ol class="country-slider__toggles">
-                <li class="country-slider__toggle country-slider__toggle--active">
-                  <button type="button">А</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Б</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">В</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Г</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Д</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Е</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">З</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">И</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">К</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Л</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">М</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Н</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">О</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">П</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Р</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">С</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Т</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">У</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Ф</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Х</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Ч</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Ш</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Э</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Ю</button>
-                </li>
-                <li class="country-slider__toggle">
-                  <button type="button">Я</button>
-                </li>
-              </ol>
+              <table class="country-slider__toggles">
+                <tr>
+                  <td><button class="country-slider__toggle country-slider__toggle--active" type="button">А</button></td>
+                  <td><button class="country-slider__toggle" type="button">Б</button></td>
+                  <td><button class="country-slider__toggle" type="button">В</button></td>
+                  <td><button class="country-slider__toggle" type="button">Г</button></td>
+                  <td><button class="country-slider__toggle" type="button">Д</button></td>
+                </tr>
+                <tr>
+                  <td><button class="country-slider__toggle" type="button">Е</button></td>
+                  <td><button class="country-slider__toggle" type="button">З</button></td>
+                  <td><button class="country-slider__toggle" type="button">И</button></td>
+                  <td><button class="country-slider__toggle" type="button">К</button></td>
+                  <td><button class="country-slider__toggle" type="button">Л</button></td>
+                </tr>
+                <tr>
+                  <td><button class="country-slider__toggle" type="button">М</button></td>
+                  <td><button class="country-slider__toggle" type="button">Н</button></td>
+                  <td><button class="country-slider__toggle" type="button">О</button></td>
+                  <td><button class="country-slider__toggle" type="button">П</button></td>
+                  <td><button class="country-slider__toggle" type="button">Р</button></td>
+                </tr>
+                <tr>
+                  <td><button class="country-slider__toggle" type="button">С</button></td>
+                  <td><button class="country-slider__toggle" type="button">Т</button></td>
+                  <td><button class="country-slider__toggle" type="button">У</button></td>
+                  <td><button class="country-slider__toggle" type="button">Ф</button></td>
+                  <td><button class="country-slider__toggle" type="button">Х</button></td>
+                </tr>
+                <tr>
+                  <td><button class="country-slider__toggle" type="button">Ч</button></td>
+                  <td><button class="country-slider__toggle" type="button">Ш</button></td>
+                  <td><button class="country-slider__toggle" type="button">Э</button></td>
+                  <td><button class="country-slider__toggle" type="button">Ю</button></td>
+                  <td><button class="country-slider__toggle" type="button">Я</button></td>
+                </tr>
+              </table>
               <ol class="country-slider__slide-list">
                 <li class="country-slider__slide country-slider__slide--current">
                   <ol class="country-slider__countries-list">
@@ -821,7 +781,7 @@
             </fieldset>
             <fieldset class="filter-companions__fieldset filter-companions__fieldset--opened">
               <legend class="filter-companions__legend">Транспорт<span>:</span></legend>
-              <ul class="filter-companions__transport-list">
+              <ul class="filter-companions__list filter-companions__list--transport">
                 <li class="filter-companions__item">
                   <input class="filter-companions__input visually-hidden" type="checkbox" name="transport" value="plane" id="transport-plane" checked>
                   <label class="filter-companions__label" for="transport-plane">
@@ -841,7 +801,7 @@
                   </label>
                 </li>
                 <li class="filter-companions__item">
-                  <input class="filter-companions__input" type="checkbox" name="transport" value="walk" id="transport-walk" checked>
+                  <input class="filter-companions__input visually-hidden" type="checkbox" name="transport" value="walk" id="transport-walk" checked>
                   <label class="filter-companions__label" for="transport-walk">
                     <span class="visually-hidden">Пешком</span>
                   </label>
@@ -852,8 +812,8 @@
               <legend class="filter-companions__legend">Левел<span>:</span></legend>
               <div class="level">
                 <div class="level__countrer">
-                  <input class="level__value level__value--min" type="text" name="min-level" value="30">
-                  <input class="level__value level__value--max" type="text" name="max-level" value="100">
+                  <input class="level__value level__value--min" type="text" name="min-level" maxlength="2" value="30">
+                  <input class="level__value level__value--max" type="text" name="max-level" maxlength="3" value="100">
                 </div>
                 <div class="level__range">
                   <div class="level__scale">
@@ -885,7 +845,7 @@
               </div>
               <p class="user-card__hashtags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
               <div class="user-card__countries">
-                <p class="user-card__countries-caption">Хочет посетить:</p>
+                <p class="user-card__caption user-card__caption--countries">Хочет посетить:</p>
                 <ul class="user-card__countries-list">
                   <li class="user-card__countries-item">
                     <span>Шри-ланка</span>
@@ -899,7 +859,7 @@
                 </ul>
               </div>
               <div class="user-card__transport">
-                <p class="user-card__transport-caption">Транспорт:</p>
+                <p class="user-card__caption user-card__caption--transport">Транспорт:</p>
                 <ul class="user-card__transport-list">
                   <li class="user-card__transport-item user-card__transport-item--active"></li>
                   <li class="user-card__transport-item"></li>
@@ -908,7 +868,7 @@
                 </ul>
               </div>
               <div class="user-card__level">
-                <p class="user-card__level-caption">Левел:</p>
+                <p class="user-card__caption user-card__caption--level">Левел:</p>
                 <span class="user-card__level-image"></span>
               </div>
               <a class="user-card__invite" href="#">Позвать!</a>
@@ -926,7 +886,7 @@
               </div>
               <p class="user-card__hashtags">#бургер #бар #футбол #концерт #крафт #бургер #бар #футбол #концерт #крафт</p>
               <div class="user-card__countries">
-                <p class="user-card__countries-caption">Хочет посетить:</p>
+                <p class="user-card__caption user-card__caption--countries">Хочет посетить:</p>
                 <ul class="user-card__countries-list">
                   <li class="user-card__countries-item">
                     <span>Бельгия</span>
@@ -937,7 +897,7 @@
                 </ul>
               </div>
               <div class="user-card__transport">
-                <p class="user-card__transport-caption">Транспорт:</p>
+                <p class="user-card__caption user-card__caption--transport">Транспорт:</p>
                 <ul class="user-card__transport-list">
                   <li class="user-card__transport-item user-card__transport-item--active"></li>
                   <li class="user-card__transport-item user-card__transport-item--active"></li>
@@ -946,7 +906,7 @@
                 </ul>
               </div>
               <div class="user-card__level">
-                <p class="user-card__level-caption">Левел:</p>
+                <p class="user-card__caption user-card__caption--level">Левел:</p>
                 <span class="user-card__level-image"></span>
               </div>
               <a class="user-card__invite" href="#">Позвать!</a>
@@ -964,7 +924,7 @@
               </div>
               <p class="user-card__hashtags">#рэп #тату #хайпбист #кроссовки #суприм</p>
               <div class="user-card__countries">
-                <p class="user-card__countries-caption">Хочет посетить:</p>
+                <p class="user-card__caption user-card__caption--countries">Хочет посетить:</p>
                 <ul class="user-card__countries-list">
                   <li class="user-card__countries-item">
                     <span>США</span>
@@ -978,7 +938,7 @@
                 </ul>
               </div>
               <div class="user-card__transport">
-                <p class="user-card__transport-caption">Транспорт:</p>
+                <p class="user-card__caption user-card__caption--transport">Транспорт:</p>
                 <ul class="user-card__transport-list">
                   <li class="user-card__transport-item user-card__transport-item--active"></li>
                   <li class="user-card__transport-item"></li>
@@ -987,7 +947,7 @@
                 </ul>
               </div>
               <div class="user-card__level">
-                <p class="user-card__level-caption">Левел:</p>
+                <p class="user-card__caption user-card__caption--level">Левел:</p>
                 <span class="user-card__level-image"></span>
               </div>
               <a class="user-card__invite" href="#">Позвать!</a>
@@ -1005,7 +965,7 @@
               </div>
               <p class="user-card__hashtags">#образование #карьера #учеба #линкедин</p>
               <div class="user-card__countries">
-                <p class="user-card__countries-caption">Хочет посетить:</p>
+                <p class="user-card__caption user-card__caption--countries">Хочет посетить:</p>
                 <ul class="user-card__countries-list">
                   <li class="user-card__countries-item">
                     <span>Великобритания</span>
@@ -1016,7 +976,7 @@
                 </ul>
               </div>
               <div class="user-card__transport">
-                <p class="user-card__transport-caption">Транспорт:</p>
+                <p class="user-card__caption user-card__caption--transport">Транспорт:</p>
                 <ul class="user-card__transport-list">
                   <li class="user-card__transport-item user-card__transport-item--active"></li>
                   <li class="user-card__transport-item user-card__transport-item--active"></li>
@@ -1025,14 +985,16 @@
                 </ul>
               </div>
               <div class="user-card__level">
-                <p class="user-card__level-caption">Левел:</p>
+                <p class="user-card__caption user-card__caption--level">Левел:</p>
                 <span class="user-card__level-image"></span>
               </div>
               <a class="user-card__invite" href="#">Позвать!</a>
             </li>
           </ul>
-          <a class="companions__more" href="#">Показать еще</a>
-          <div class="companions-pagination">
+          <div class="companions__more">
+            <a href="#">Показать еще</a>
+          </div>
+          <div class="companions__pagination companions-pagination">
             <ol class="companions-pagination__list">
               <li class="companions-pagination__item companions-pagination__item--current">
                 <a href="#">1</a>
@@ -1059,14 +1021,14 @@
       <a class="page-footer__logo" href="index.html">
         <img src="img/logo-pognali-blue-mobile.png" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
       </a>
-      <ul class="page-footer__socials socials socials--footer">
-        <li class="socials__item socials__item--fb">
+      <ul class="page-footer__socials socials">
+        <li class="socials__item socials__item--footer socials__item--fb">
           <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
         </li>
-        <li class="socials__item socials__item--vk">
+        <li class="socials__item socials__item--footer socials__item--vk">
           <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
         </li>
-        <li class="socials__item socials__item--inst">
+        <li class="socials__item socials__item--footer socials__item--inst">
           <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
         </li>
       </ul>

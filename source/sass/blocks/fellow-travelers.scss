@@ -1,0 +1,12 @@
+.fellow-travelers__link-home {
+  display: none;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}

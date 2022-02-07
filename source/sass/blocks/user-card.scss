@@ -1,0 +1,51 @@
+.user-card__name {
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: $basic-blue-light;
+}
+
+.user-card__avatar img {
+  border-radius: 50%;
+}
+
+.user-card__like-button {
+  background-color: transparent;
+}
+
+.user-card__like-counter {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue;
+}
+
+.user-card__hashtags {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.user-card__caption {
+  font-size: 15px;
+  line-height: 16px;
+  text-transform: lowercase;
+}
+
+.user-card__caption:not(.user-card__caption--countries) {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.user-card__invite {
+  display: block;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: $basic-blue;
+  background-color: $basic-yellow;
+}

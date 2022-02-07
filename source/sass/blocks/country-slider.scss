@@ -1,0 +1,53 @@
+.country-slider--select {
+  background-color: $white;
+}
+
+.country-slider__toggles {
+  background-color: $white;
+  border-spacing: 0;
+}
+
+.country-slider__toggle {
+  width: 100%;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0;
+  color: $basic-blue-light;
+  background-color: transparent;
+  border: none;
+}
+
+.country-slider--filter .country-slider__toggle--active {
+  color: $white;
+  background-color: $basic-blue-light;
+}
+
+.country-slider--select .country-slider__toggle--active {
+  background-color: $basic-blue-pale;
+}
+
+.country-slider__slide-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.country-slider__slide {
+  display: none;
+}
+
+.country-slider__slide--current {
+  display: block;
+}
+
+.country-slider__countries-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.country-slider__country a {
+  color: $special-grey;
+}

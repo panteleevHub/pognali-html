@@ -1,0 +1,17 @@
+.companions__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.companions__more {
+  text-align: center;
+}
+
+.companions__more a {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue-light;
+}

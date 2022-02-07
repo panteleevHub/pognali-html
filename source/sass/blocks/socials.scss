@@ -1,0 +1,13 @@
+.socials {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.socials__item a {
+  display: block;
+}
+
+.socials__item--footer a {
+  background-color: $basic-yellow;
+}

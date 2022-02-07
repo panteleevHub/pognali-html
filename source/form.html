@@ -11,8 +11,8 @@
     <header class="page-header page-header--opened">
       <div class="page-header__menu-bar">
         <a class="page-header__logo" href="index.html">
-          <img src="img/logo-pognali-white-mobile.svg" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
-          <img src="img/logo-pognali-blue-mobile.svg" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+          <img class="page-header__logo-image page-header__logo-image--white" src="img/logo-pognali-white-mobile.png" width="96" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
+          <img class="page-header__logo-image page-header__logo-image--blue" src="img/logo-pognali-blue-mobile.png" width="100" height="15"  alt="Логотип сайта &laquo;Погнали&raquo;">
         </a>
         <button class="page-header__button" type="button" aria-label="Открыть меню"></button>
         <div class="user-nav user-nav--header">
@@ -46,14 +46,14 @@
           <a class="contacts__link contacts__link--phone" href="tel:88005558628">8 800 555-86-28</a>
           <a class="contacts__link contacts__link--email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </address>
-        <ul class="page-header__socials socials socials--header">
-          <li class="socials__item socials__item--fb">
+        <ul class="page-header__socials socials">
+          <li class="socials__item socials__item--header socials__item--fb">
             <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
           </li>
-          <li class="socials__item socials__item--vk">
+          <li class="socials__item socials__item--header socials__item--vk">
             <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
           </li>
-          <li class="socials__item socials__item--inst">
+          <li class="socials__item socials__item--header socials__item--inst">
             <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
           </li>
         </ul>
@@ -586,83 +586,43 @@
                           <button class="country-select__close" type="button" aria-label="Закрыть окно"></button>
                         </div>
                         <div class="country-select__slider country-slider country-slider--select">
-                          <ol class="country-slider__toggles">
-                            <li class="country-slider__toggle country-slider__toggle--active">
-                              <button type="button">А</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Б</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">В</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Г</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Д</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Е</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">З</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">И</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">К</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Л</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">М</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Н</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">О</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">П</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Р</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">С</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Т</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">У</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Ф</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Х</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Ч</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Ш</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Э</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Ю</button>
-                            </li>
-                            <li class="country-slider__toggle">
-                              <button type="button">Я</button>
-                            </li>
-                          </ol>
+                          <table class="country-slider__toggles">
+                            <tr>
+                              <td><button class="country-slider__toggle country-slider__toggle--active" type="button">А</button></td>
+                              <td><button class="country-slider__toggle" type="button">Б</button></td>
+                              <td><button class="country-slider__toggle" type="button">В</button></td>
+                              <td><button class="country-slider__toggle" type="button">Г</button></td>
+                              <td><button class="country-slider__toggle" type="button">Д</button></td>
+                            </tr>
+                            <tr>
+                              <td><button class="country-slider__toggle" type="button">Е</button></td>
+                              <td><button class="country-slider__toggle" type="button">З</button></td>
+                              <td><button class="country-slider__toggle" type="button">И</button></td>
+                              <td><button class="country-slider__toggle" type="button">К</button></td>
+                              <td><button class="country-slider__toggle" type="button">Л</button></td>
+                            </tr>
+                            <tr>
+                              <td><button class="country-slider__toggle" type="button">М</button></td>
+                              <td><button class="country-slider__toggle" type="button">Н</button></td>
+                              <td><button class="country-slider__toggle" type="button">О</button></td>
+                              <td><button class="country-slider__toggle" type="button">П</button></td>
+                              <td><button class="country-slider__toggle" type="button">Р</button></td>
+                            </tr>
+                            <tr>
+                              <td><button class="country-slider__toggle" type="button">С</button></td>
+                              <td><button class="country-slider__toggle" type="button">Т</button></td>
+                              <td><button class="country-slider__toggle" type="button">У</button></td>
+                              <td><button class="country-slider__toggle" type="button">Ф</button></td>
+                              <td><button class="country-slider__toggle" type="button">Х</button></td>
+                            </tr>
+                            <tr>
+                              <td><button class="country-slider__toggle" type="button">Ч</button></td>
+                              <td><button class="country-slider__toggle" type="button">Ш</button></td>
+                              <td><button class="country-slider__toggle" type="button">Э</button></td>
+                              <td><button class="country-slider__toggle" type="button">Ю</button></td>
+                              <td><button class="country-slider__toggle" type="button">Я</button></td>
+                            </tr>
+                          </table>
                           <ol class="country-slider__slide-list">
                             <li class="country-slider__slide country-slider__slide--current">
                               <ol class="country-slider__countries-list">
@@ -1297,14 +1257,14 @@
       <a class="page-footer__logo" href="index.html">
         <img src="img/logo-pognali-blue-mobile.png" width="100" height="15" alt="Логотип сайта &laquo;Погнали&raquo;">
       </a>
-      <ul class="page-footer__socials socials socials--footer">
-        <li class="socials__item socials__item--fb">
+      <ul class="page-footer__socials socials">
+        <li class="socials__item socials__item--footer socials__item--fb">
           <a href="#" target="_blank"><span class="visually-hidden">Фейсбук</span></a>
         </li>
-        <li class="socials__item socials__item--vk">
+        <li class="socials__item socials__item--footer socials__item--vk">
           <a href="#" target="_blank"><span class="visually-hidden">Вконтакте</span></a>
         </li>
-        <li class="socials__item socials__item--inst">
+        <li class="socials__item socials__item--footer socials__item--inst">
           <a href="#" target="_blank"><span class="visually-hidden">Инстаграм</span></a>
         </li>
       </ul>

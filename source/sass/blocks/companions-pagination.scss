@@ -1,0 +1,22 @@
+.companions-pagination__list {
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+}
+
+.companions-pagination__item a {
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: $basic-blue-light;
+}
+
+.companions-pagination__item--current a {
+  background-color: $basic-yellow;
+}
