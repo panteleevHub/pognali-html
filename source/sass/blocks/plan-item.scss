@@ -1,0 +1,31 @@
+.plan-item {
+  color: $basic-blue-light;
+  background-color: $white;
+}
+
+.plan-item__name {
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.plan-item__destination {
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.plan-item__info {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.plan-item__change {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: $black;
+  opacity: 0.3;
+}

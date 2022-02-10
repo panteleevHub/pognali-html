@@ -1,0 +1,32 @@
+.plan-slide {
+  background-color: $white;
+}
+
+.plan-slide__title {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: $basic-blue-light;
+}
+
+.plan-slide__indicators {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.plan-slide__toggle {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.plan-slide__toggle--prev {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: $basic-blue-light;
+}

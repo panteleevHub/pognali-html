@@ -1,0 +1,69 @@
+.calendar__months {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.calendar__month {
+  display: none;
+}
+
+.calendar__month--current {
+  display: block;
+}
+
+.calendar__table {
+  border-collapse: collapse;
+}
+
+.calendar__caption {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: $basic-blue-light;
+}
+
+.calendar__cell {
+  padding: 0;
+}
+
+.calendar__head .calendar__cell {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.calendar__head .calendar__cell--weekend {
+  color: $special-orange-dark;
+}
+
+.calendar__body .calendar__cell {
+  border: 1px solid $basic-grey-light;
+}
+
+.calendar__label {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  color: $basic-blue-light;
+  background-color: $basic-blue-pale;
+  cursor: pointer;
+}
+
+.calendar__cell--disabled .calendar__label {
+  font-weight: inherit;
+  color: inherit;
+  background-color: inherit;
+  opacity: 0.3;
+}
+
+.calendar__input:checked + label {
+  color: $white;
+  background-color: $basic-blue-light;
+}
+
+.calendar__start-travel,
+.calendar__end-travel {
+  display: none;
+}

@@ -1,0 +1,31 @@
+.counters__label {
+  line-height: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: $basic-blue-light;
+}
+
+.counters__caption {
+  line-height: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: $basic-blue-light;
+  opacity: 0.3;
+}
+
+.counters__input {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: $basic-blue-light;
+  background-color: transparent;
+}
+
+.counters__children label {
+  font-size: 15px;
+  line-height: 15px;
+  color: $basic-blue-light;
+}

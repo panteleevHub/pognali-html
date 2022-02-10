@@ -1,0 +1,43 @@
+.user-profile__avatar img {
+  border-radius: 50%;
+}
+
+.user-profile__change-photo {
+  width: 100%;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: $basic-blue;
+  background-color: $special-blue-light;
+  border: none;
+}
+
+.user-profile__fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+.user-profile__fieldset legend {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $basic-blue-light;
+}
+
+.user-profile__fieldset textarea {
+  font-size: 16px;
+  line-height: 18px;
+  color: $special-grey;
+  background-color: transparent;
+  border: none;
+  resize: none;
+}
+
+.user-profile__transport-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
